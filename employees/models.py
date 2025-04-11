@@ -21,7 +21,7 @@ class Employee(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     role = models.ForeignKey(Role, on_delete=models.PROTECT)
-    manager = models.ForeignKey('self', null=True, blank=True, on_delete=models.SET_NULL)
+    manager = models.ForeignKey('self', on_delete=models.SET_NULL, null=True, blank=True, related_name='subordinates')
     contact_info = models.OneToOneField(ContactInfo, null=True, blank=True, on_delete=models.SET_NULL)
     date_joined = models.DateField()
     last_promotion_date = models.DateField(null=True, blank=True)
