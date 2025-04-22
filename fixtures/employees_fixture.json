@@ -7,7 +7,7 @@
       "last_name": "Schwab",
       "role": 1,
       "manager": null,
-      "contact_info": null,
+      "contact_info": 1,
       "date_joined": "2025-01-10",
       "last_promotion_date": null,
       "salary": "150000.00",

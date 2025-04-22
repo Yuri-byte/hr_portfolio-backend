@@ -1,0 +1,14 @@
+[
+  {
+    "model": "employees.contactinfo",
+    "pk": 1,
+    "fields": {
+      "phone_number": "19888927398",
+      "email": "yurischwab00@gmail.com",
+      "address": "Rua Aníbal Ferreira",
+      "city": "Campinas",
+      "postal_code": "13151027",
+      "country": "Brazil"
+    }
+  }
+]
