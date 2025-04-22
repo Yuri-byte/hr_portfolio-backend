@@ -1,0 +1,155 @@
+[
+  {
+    "model": "employees.role",
+    "pk": 1,
+    "fields": {
+      "title": "Chief Executive Officer (CEO)",
+      "rank": 1,
+      "description": "Overall strategic vision and leadership of the company."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 2,
+    "fields": {
+      "title": "Chief Technology Officer (CTO)",
+      "rank": 2,
+      "description": "Oversight of technological strategy and product innovation."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 3,
+    "fields": {
+      "title": "Chief Operating Officer (COO)",
+      "rank": 2,
+      "description": "Manages day-to-day operations and oversees business performance."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 4,
+    "fields": {
+      "title": "Chief Financial Officer (CFO)",
+      "rank": 2,
+      "description": "Leads financial planning, risk management, and budgeting."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 5,
+    "fields": {
+      "title": "Vice President of Engineering",
+      "rank": 3,
+      "description": "Leads engineering teams and sets technical direction for product development."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 6,
+    "fields": {
+      "title": "Vice President of Sales",
+      "rank": 3,
+      "description": "Leads sales team."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 7,
+    "fields": {
+      "title": "Vice President of Product",
+      "rank": 3,
+      "description": "Guides product strategy, market research, and product roadmaps."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 8,
+    "fields": {
+      "title": "Director of Engineering",
+      "rank": 4,
+      "description": "Oversees multiple engineering teams and implements best practices."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 9,
+    "fields": {
+      "title": "Product Manager",
+      "rank": 4,
+      "description": "Coordinates between teams to define and execute product roadmaps."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 10,
+    "fields": {
+      "title": "Director of HR",
+      "rank": 4,
+      "description": "Coordinates HR effort"
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 11,
+    "fields": {
+      "title": "Software Engineer",
+      "rank": 6,
+      "description": "Designs, develops, and maintains software applications."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 12,
+    "fields": {
+      "title": "DevOps Engineer",
+      "rank": 6,
+      "description": "Builds and maintains deployment pipelines and operational infrastructure."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 13,
+    "fields": {
+      "title": "UX/UI Designer",
+      "rank": 6,
+      "description": "Designs user interfaces and ensures optimal user experiences."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 14,
+    "fields": {
+      "title": "Data Scientist",
+      "rank": 6,
+      "description": "Analyzes data to derive insights and drive decision-making."
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 15,
+    "fields": {
+      "title": "HR",
+      "rank": 5,
+      "description": "Human resources"
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 16,
+    "fields": {
+      "title": "Intern Developer",
+      "rank": 7,
+      "description": "Student level software developer"
+    }
+  },
+  {
+    "model": "employees.role",
+    "pk": 17,
+    "fields": {
+      "title": "Team manager",
+      "rank": 5,
+      "description": "Tech team manager"
+    }
+  }
+]

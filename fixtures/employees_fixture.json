@@ -1,0 +1,482 @@
+[
+  {
+    "model": "employees.employee",
+    "pk": 1,
+    "fields": {
+      "first_name": "Yuri",
+      "last_name": "Schwab",
+      "role": 1,
+      "manager": null,
+      "contact_info": null,
+      "date_joined": "2025-01-10",
+      "last_promotion_date": null,
+      "salary": "150000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 2,
+    "fields": {
+      "first_name": "Bob",
+      "last_name": "Brown",
+      "role": 2,
+      "manager": 1,
+      "contact_info": null,
+      "date_joined": "2025-02-20",
+      "last_promotion_date": null,
+      "salary": "120000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 3,
+    "fields": {
+      "first_name": "Carol",
+      "last_name": "Clark",
+      "role": 3,
+      "manager": 1,
+      "contact_info": null,
+      "date_joined": "2025-03-10",
+      "last_promotion_date": null,
+      "salary": "110000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 4,
+    "fields": {
+      "first_name": "David",
+      "last_name": "Davis",
+      "role": 4,
+      "manager": 1,
+      "contact_info": null,
+      "date_joined": "2025-04-05",
+      "last_promotion_date": null,
+      "salary": "90000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 5,
+    "fields": {
+      "first_name": "Eve",
+      "last_name": "Evans",
+      "role": 10,
+      "manager": 1,
+      "contact_info": null,
+      "date_joined": "2025-05-01",
+      "last_promotion_date": null,
+      "salary": "95000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 6,
+    "fields": {
+      "first_name": "Frank",
+      "last_name": "Foster",
+      "role": 15,
+      "manager": 5,
+      "contact_info": null,
+      "date_joined": "2025-06-10",
+      "last_promotion_date": null,
+      "salary": "85000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 7,
+    "fields": {
+      "first_name": "Grace",
+      "last_name": "Green",
+      "role": 15,
+      "manager": 5,
+      "contact_info": null,
+      "date_joined": "2025-06-12",
+      "last_promotion_date": null,
+      "salary": "87000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 8,
+    "fields": {
+      "first_name": "Hank",
+      "last_name": "Harris",
+      "role": 6,
+      "manager": 4,
+      "contact_info": null,
+      "date_joined": "2025-07-01",
+      "last_promotion_date": null,
+      "salary": "90000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 9,
+    "fields": {
+      "first_name": "Irene",
+      "last_name": "Ivory",
+      "role": 6,
+      "manager": 4,
+      "contact_info": null,
+      "date_joined": "2025-07-05",
+      "last_promotion_date": null,
+      "salary": "92000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 10,
+    "fields": {
+      "first_name": "Jack",
+      "last_name": "Jackson",
+      "role": 7,
+      "manager": 3,
+      "contact_info": null,
+      "date_joined": "2025-07-10",
+      "last_promotion_date": null,
+      "salary": "80000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 11,
+    "fields": {
+      "first_name": "Karen",
+      "last_name": "King",
+      "role": 9,
+      "manager": 3,
+      "contact_info": null,
+      "date_joined": "2025-07-12",
+      "last_promotion_date": null,
+      "salary": "84000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 12,
+    "fields": {
+      "first_name": "Larry",
+      "last_name": "Lewis",
+      "role": 9,
+      "manager": 3,
+      "contact_info": null,
+      "date_joined": "2025-08-01",
+      "last_promotion_date": null,
+      "salary": "88000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 13,
+    "fields": {
+      "first_name": "Monica",
+      "last_name": "Moore",
+      "role": 8,
+      "manager": 2,
+      "contact_info": null,
+      "date_joined": "2025-08-05",
+      "last_promotion_date": null,
+      "salary": "86000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 14,
+    "fields": {
+      "first_name": "Nathan",
+      "last_name": "Norris",
+      "role": 17,
+      "manager": 13,
+      "contact_info": null,
+      "date_joined": "2025-08-10",
+      "last_promotion_date": null,
+      "salary": "90000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 15,
+    "fields": {
+      "first_name": "Olivia",
+      "last_name": "Olson",
+      "role": 17,
+      "manager": 13,
+      "contact_info": null,
+      "date_joined": "2025-08-15",
+      "last_promotion_date": null,
+      "salary": "92000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 16,
+    "fields": {
+      "first_name": "Peter",
+      "last_name": "Parker",
+      "role": 17,
+      "manager": 13,
+      "contact_info": null,
+      "date_joined": "2025-09-01",
+      "last_promotion_date": null,
+      "salary": "93000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 17,
+    "fields": {
+      "first_name": "Quinn",
+      "last_name": "Adams",
+      "role": 11,
+      "manager": 14,
+      "contact_info": null,
+      "date_joined": "2025-09-05",
+      "last_promotion_date": null,
+      "salary": "95000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 18,
+    "fields": {
+      "first_name": "Rachel",
+      "last_name": "Green",
+      "role": 11,
+      "manager": 14,
+      "contact_info": null,
+      "date_joined": "2025-09-10",
+      "last_promotion_date": null,
+      "salary": "91000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 19,
+    "fields": {
+      "first_name": "Steve",
+      "last_name": "Rogers",
+      "role": 12,
+      "manager": 14,
+      "contact_info": null,
+      "date_joined": "2025-09-15",
+      "last_promotion_date": null,
+      "salary": "89000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 20,
+    "fields": {
+      "first_name": "Tina",
+      "last_name": "Turner",
+      "role": 13,
+      "manager": 14,
+      "contact_info": null,
+      "date_joined": "2025-09-20",
+      "last_promotion_date": null,
+      "salary": "92000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 21,
+    "fields": {
+      "first_name": "Uma",
+      "last_name": "Thurman",
+      "role": 16,
+      "manager": 14,
+      "contact_info": null,
+      "date_joined": "2025-09-25",
+      "last_promotion_date": null,
+      "salary": "90000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 22,
+    "fields": {
+      "first_name": "Victor",
+      "last_name": "Stone",
+      "role": 14,
+      "manager": 15,
+      "contact_info": null,
+      "date_joined": "2025-10-01",
+      "last_promotion_date": null,
+      "salary": "94000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 23,
+    "fields": {
+      "first_name": "Wendy",
+      "last_name": "Darling",
+      "role": 14,
+      "manager": 15,
+      "contact_info": null,
+      "date_joined": "2025-10-05",
+      "last_promotion_date": null,
+      "salary": "88000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 24,
+    "fields": {
+      "first_name": "Xavier",
+      "last_name": "Woods",
+      "role": 14,
+      "manager": 15,
+      "contact_info": null,
+      "date_joined": "2025-10-10",
+      "last_promotion_date": null,
+      "salary": "90000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 25,
+    "fields": {
+      "first_name": "Yvonne",
+      "last_name": "Strahovski",
+      "role": 14,
+      "manager": 15,
+      "contact_info": null,
+      "date_joined": "2025-10-15",
+      "last_promotion_date": null,
+      "salary": "95000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 26,
+    "fields": {
+      "first_name": "Zachary",
+      "last_name": "Lee",
+      "role": 11,
+      "manager": 16,
+      "contact_info": null,
+      "date_joined": "2025-11-01",
+      "last_promotion_date": null,
+      "salary": "85000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 27,
+    "fields": {
+      "first_name": "Amber",
+      "last_name": "Nelson",
+      "role": 11,
+      "manager": 16,
+      "contact_info": null,
+      "date_joined": "2025-11-03",
+      "last_promotion_date": null,
+      "salary": "86000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 28,
+    "fields": {
+      "first_name": "Brian",
+      "last_name": "O'Neil",
+      "role": 11,
+      "manager": 16,
+      "contact_info": null,
+      "date_joined": "2025-11-05",
+      "last_promotion_date": null,
+      "salary": "87000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 29,
+    "fields": {
+      "first_name": "Catherine",
+      "last_name": "Park",
+      "role": 13,
+      "manager": 16,
+      "contact_info": null,
+      "date_joined": "2025-11-07",
+      "last_promotion_date": null,
+      "salary": "88000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 30,
+    "fields": {
+      "first_name": "Derek",
+      "last_name": "Quinn",
+      "role": 13,
+      "manager": 16,
+      "contact_info": null,
+      "date_joined": "2025-11-09",
+      "last_promotion_date": null,
+      "salary": "87000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 31,
+    "fields": {
+      "first_name": "Elena",
+      "last_name": "Reyes",
+      "role": 13,
+      "manager": 16,
+      "contact_info": null,
+      "date_joined": "2025-11-11",
+      "last_promotion_date": null,
+      "salary": "86000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 32,
+    "fields": {
+      "first_name": "Felix",
+      "last_name": "Schmidt",
+      "role": 13,
+      "manager": 16,
+      "contact_info": null,
+      "date_joined": "2025-11-13",
+      "last_promotion_date": null,
+      "salary": "88000.00",
+      "status": "active"
+    }
+  }
+]

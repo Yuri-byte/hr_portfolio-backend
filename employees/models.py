@@ -31,29 +31,29 @@ class Employee(models.Model):
     def __str__(self):
         return f'{self.first_name} {self.last_name}'
     
-    # def save(self, *args, **kwargs):
-    #     is_new = self.pk is None
-    #     if not is_new:
-    #         old = self.__class__.objects.get(pk=self.pk)
-    #         if old.role != self.role:
-    #             EmployeeRoleHistory.objects.filter(
-    #                 employee=self,
-    #                 end_date__isnull=True
-    #             ).update(end_date=now().date())
+    def save(self, *args, **kwargs):
+        is_new = self.pk is None
+        if not is_new:
+            old = self.__class__.objects.get(pk=self.pk)
+            if old.role != self.role:
+                EmployeeRoleHistory.objects.filter(
+                    employee=self,
+                    end_date__isnull=True
+                ).update(end_date=now().date())
 
-    #             EmployeeRoleHistory.objects.create(
-    #                 employee=self,
-    #                 role=self.role,
-    #                 start_date=now().date()
-    #             )
-    #     super().save(*args, **kwargs)  # Save once, always
+                EmployeeRoleHistory.objects.create(
+                    employee=self,
+                    role=self.role,
+                    start_date=now().date()
+                )
+        super().save(*args, **kwargs)  # Save once, always
 
-    #     if is_new:
-    #         EmployeeRoleHistory.objects.create(
-    #             employee=self,
-    #             role=self.role,
-    #             start_date=now().date()
-    #         )
+        if is_new:
+            EmployeeRoleHistory.objects.create(
+                employee=self,
+                role=self.role,
+                start_date=now().date()
+            )
 
 class EmployeeRoleHistory(models.Model):
     employee = models.ForeignKey('Employee', on_delete=models.CASCADE, related_name='role_history')
