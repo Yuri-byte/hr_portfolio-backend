@@ -36,7 +36,7 @@ class ContactInfoSerializer(serializers.ModelSerializer):
 class EmployeeSerializer(serializers.ModelSerializer):
     contact_info = FlexibleNestedField(ContactInfoSerializer, queryset=ContactInfo.objects.all())
     role = FlexibleNestedField(RoleSerializer, queryset=Role.objects.all())
-    manager = serializers.StringRelatedField(read_only=True)
+    manager = serializers.PrimaryKeyRelatedField(queryset=Employee.objects.all(), allow_null=True)
 
     class Meta:
         model = Employee
@@ -73,16 +73,26 @@ class EmployeeSerializer(serializers.ModelSerializer):
     def update(self, instance, validated_data):
         contact_info_data = validated_data.pop('contact_info', None)
         role_data = validated_data.pop('role', None)
+        manager_data = validated_data.pop('manager', None)
 
-        if isinstance(contact_info_data, dict):
-            for attr, value in contact_info_data.items():
-                setattr(instance.contact_info, attr, value)
-            instance.contact_info.save()
+        if contact_info_data:
+            if isinstance(contact_info_data, dict):
+                for attr, value in contact_info_data.items():
+                    setattr(instance.contact_info, attr, value)
+                instance.contact_info.save()
+            elif isinstance(contact_info_data, ContactInfo):
+                instance.contact_info = contact_info_data
 
-        if isinstance(role_data, dict):
-            for attr, value in role_data.items():
-                setattr(instance.role, attr, value)
-            instance.role.save()
+        if role_data:
+            if isinstance(role_data, dict):
+                for attr, value in role_data.items():
+                    setattr(instance.role, attr, value)
+                instance.role.save()
+            elif isinstance(role_data, Role):
+                instance.role = role_data
+
+        if manager_data:
+            instance.manager = manager_data
 
         for attr, value in validated_data.items():
             setattr(instance, attr, value)

@@ -382,7 +382,7 @@
       "last_name": "Lee",
       "role": 11,
       "manager": 16,
-      "contact_info": null,
+      "contact_info": 2,
       "date_joined": "2025-11-01",
       "last_promotion_date": null,
       "salary": "85000.00",

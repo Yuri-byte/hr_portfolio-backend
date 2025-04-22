@@ -10,5 +10,17 @@
       "postal_code": "13151027",
       "country": "Brazil"
     }
+  },
+  {
+    "model": "employees.contactinfo",
+    "pk": 2,
+    "fields": {
+      "phone_number": "19888927398",
+      "email": "zach@gmail.com",
+      "address": "Central Park",
+      "city": "New York",
+      "postal_code": "13151027",
+      "country": "US"
+    }
   }
 ]
